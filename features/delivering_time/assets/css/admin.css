@@ -1,0 +1,332 @@
+.limit {
+    height: 540px;
+}
+.limit section {
+    width: 45%;
+    margin:10px 2.5%;
+    float: right;
+}
+.limit section textarea {
+    width: 100%;
+    height: 100px;
+}
+.limit-con {
+    height: 180px;
+    margin:10px 0;
+}
+.limit-con div {
+    background-color: #ddd;
+    width: 93%;
+    height: 30px;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    padding:6px 0;
+    line-height:30px;
+    padding-right: 20px;
+    border: 1px solid #999;
+    border-right: 10px solid #1A9700;
+    margin-top: 2px;
+}
+.limit-con div label:first-of-type {
+    width: 70%;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+.limit-con div label:first-of-type input {
+    width:20%;
+    float: right;
+    text-align: center!important;;
+    font-weight: bold;
+}
+.limit-con h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+.times-con {
+    height: auto;
+    margin:5px 0;
+}
+.times-con h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+.times-con div {
+    background-color: #ddd!important;
+    width: 93%;
+    height: 20px;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    padding:6px 0;
+    line-height:30px;
+    padding-right: 20px;
+    border: 1px solid #999;
+    border-right: 10px solid #1A9700;
+    margin-top: 2px;
+}
+.times-con div p {
+    width: 20%;
+    height: 100%;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    margin-top:  -0px;
+    position: relative;
+    top: 0px;
+    padding-left: 10px;
+    color:#000;
+    font-size: 13px;
+}
+.times-con label {
+    width:35%;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    font-weight: bold;
+}
+.times-con label span {
+    width: 50%;
+    display: block;
+    float: right;
+    margin-top: -5px;
+    text-align: center
+}
+.times-con label:first-of-type span {
+    color: #1a9700;
+}
+.times-con label:last-of-type span {
+    color: #fb4545;
+}
+.times-con input {
+    margin: 0!important;
+    width: 50%;
+    float: right;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -5px;
+}
+.times-con input::placeholder {
+    color:#ddd;
+    text-align: center;
+    font-weight: normal;
+}
+.re_today {
+    background-color: #ccc;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */input[type=number] {
+                 -moz-appearance: textfield;
+             }
+.limit section:nth-child(3)>div {
+    width:250px;
+    float: right;
+    background-color:#ddd;
+    margin:5px;
+}
+.limit section:nth-child(3) label {
+    width:250px;
+    height: 100px!important;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.limit section:nth-child(3) label span {
+    color: red;
+    display: block;
+    width:95%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.limit section:nth-child(3) input {
+    width: 40px;
+    height: 60px;
+    text-align: center!important;
+}
+.re-save-con {
+    padding: 5px 0;
+}
+.re-save-con div {
+    background-color: #ccc;
+    padding: 5px 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+.re-save-con div .slider {
+    padding: 3px 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+.re-save-con div span {
+    font-size: 17px;
+    background-color: #fff;
+    padding: 7px;
+    position: relative;
+    top: -8px;
+}
+.re-save-con div:last-of-type input {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    background-color: #39CB1B;
+    padding: 4px;
+    border:none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px #0E5300 inset;
+    position: relative;
+    cursor: pointer;
+    color:#fff;
+    font-size:17px
+}
+.re-save-con div:last-of-type input:hover {
+    background-color: #65FF46;
+    color: #000;
+}
+.table {
+    width: 80%;
+    margin:0 8%;
+    text-align: center;
+    border:1px solid #ddd;
+    font-size: 15px;
+    border-collapse: collapse!important;
+}
+.table td {
+    padding: 10px 5px;
+    border:1px solid #ddd;
+}
+.order-option  form {
+    height: 20px;
+    padding-top: 10px;
+}
+.table thead th  ,
+.table tfoot th {
+    padding: 10px 5px!important;
+;
+    border:1px solid #ddd;
+    color: #FF6300
+}
+.show td {
+    cursor: default
+}
+.show td:not(:first-of-type):hover {
+    cursor: pointer;
+    background-color: #ddd;
+    transition:all .3s ease-in-out
+}
+.show-orders {
+    margin-top:100px;
+    margin-bottom: 200px;
+}
+.show-orders th {
+    font-size: 13px;
+}
+.show-orders td {
+    font-size: 12px;
+}
+.order-option td:last-of-type {
+    width: 50%;
+}
+.order-option .order-item:hover {
+    cursor: pointer!important;
+    background-color: #ddd;
+    transition:all .3s ease-in-out
+}
+.order-option .last:hover {
+    cursor: pointer!important;
+    background-color: #f1f1f1!important;
+;
+    transition:all .3s ease-in-out
+}
+.order-option td:last-of-type div {
+    width: 33%;
+    float: right;
+    font-size: 12px;
+    line-height: 1px;
+}
+.order-option td:last-of-type div input {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ddd;
+    box-shadow: 0 0 5px #eee;
+    padding: 1px!important;
+    border-radius: 2px;
+}
+.order-option td:last-of-type div input:before {
+    background-color: #FF3700;
+    border-radius: 2px;
+}
+.deactivate-hours {
+    border-right: 10px solid #FB4545!important;
+}
+@media screen and (max-width:800px) {
+    .times-con div p {
+        font-size: 8px;
+        top: 5px;
+    }
+    .times-con div  input {
+        min-height: 30px;
+        font-size:9px;
+    }
+    .times-con div span {
+        min-height: 30px;
+        font-size:9px;
+        width: 30px;
+    }
+    .limit-con div   {
+        height: 90px;
+        font-size:11px;
+    }
+    .limit-con div label  {
+        width: 100%!important;
+    ;
+        height: 50px;
+        float: right!important;
+        font-size:9px!important;
+    ;
+    }
+    .limit-con div label:first-of-type  input {
+        width: 30px;
+        text-align: center!important;
+    }
+    .limit-con div input {
+        padding: 0!important;
+        height: 20px!important;
+    ;
+        width: 20px;
+        font-size: 9px!important;
+    }
+    .show-orders table  tfoot th ,
+    .show-orders table  thead th {
+        font-size: 8px!important;
+    }
+    .show-orders table tbody td {
+        font-size: 8px!important;
+        padding: 0!important;
+    }
+    .table {
+        font-size: 9px;
+    }
+    .last  {
+        height: 100px;
+    }
+    .last  form {
+        height: 100px;
+    }
+    .last div {
+        width: 100%!important;
+        height: 33%!important;
+        float: right!important;
+    }
+}
+
+

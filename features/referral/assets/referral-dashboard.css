@@ -1,0 +1,154 @@
+
+
+.ref_con .icon_con {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.ref_con .icon_con svg {
+    width: 90px;
+    height: 90px;
+}
+
+.ref_con .ref_form_con {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.ref_con .ref_form_con label{
+    border-right: 5px solid  orange ;
+    padding-right: 5px;
+}
+.ref_con .ref_form_con input[type=text]{
+    box-shadow: 0 0 5px #999;
+    border: none;
+    border-radius: 5px;
+    text-align:center
+}
+.ref_con .ref_form_con [type=submit] {
+    font-size: 15px;
+    margin-top:30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+}
+.ref_profile_con {
+    width: 100%;
+}
+.ref_profile_con>div{
+    width: 100%;
+    float: right;
+}
+.ref_profile_con .ref_header{
+    width: 100%;
+}
+.ref_profile_con .ref_header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ref_profile_con .ref_header svg{
+    width: 30px;
+    height: 30px;
+}
+
+.ref_profile_con .ref_body_prof_con>div{
+    width: 100%;
+    float: right;
+}
+.ref_profile_con .ref_body_prof_con .ref_top_prof ,
+.ref_profile_con .ref_body_prof_con .ref_bottom_prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+.ref_profile_con .ref_body_prof_con .ref_bottom_prof{
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -1px 5px #ddd;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.ref_profile_con .ref_body_prof_con .ref_top_prof {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 5px #ddd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ref_profile_con .ref_body_prof_con .ref_top_prof div ,
+.ref_profile_con .ref_body_prof_con .ref_bottom_prof div{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+    height:50px;
+    margin: 0;
+}
+.ref_profile_con .ref_body_prof_con .ref_top_prof p ,
+.ref_profile_con .ref_body_prof_con .ref_middle_prof>div div p ,
+.ref_profile_con .ref_body_prof_con .ref_bottom_prof p{
+    margin: 0;
+    font-size: 17px;
+    color: #444;
+    text-shadow: 0 0 5px #ddd;
+}
+.ref_profile_con .ref_body_prof_con .ref_top_prof span ,
+.ref_profile_con .ref_body_prof_con .ref_middle_prof>div div span ,
+.ref_profile_con .ref_body_prof_con .ref_bottom_prof span{
+    padding-left: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: green;
+}
+
+.ref_profile_con .ref_body_prof_con .ref_middle_prof {
+    width: 100%;
+}
+.ref_profile_con .ref_body_prof_con .ref_middle_prof>div{
+    width: 32.8%;
+    float: right;
+    margin: 5px 1px;
+    border:1px solid #eee;
+}
+
+.ref_profile_con .ref_body_prof_con .ref_middle_prof div>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    float: right;
+}
+.ref_profile_con .ref_body_prof_con .ref_middle_prof div>div:first-of-type{
+    height: 70px;
+}
+.ref_profile_con .ref_body_prof_con .ref_middle_prof div>div {
+    color: #555
+}
+.ref_profile_con .ref_body_prof_con .ref_middle_prof div>div span {
+    padding-left: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: green;
+}
+.ref_profile_con .ref_body_prof_con .ref_middle_prof div>div p {
+    font-size: 17px;
+    color: #444;
+    text-shadow: 0 0 5px #ddd;
+}
+.ref_profile_con   svg{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .ref_profile_con .ref_body_prof_con .ref_middle_prof>div{
+        width: 100%!important;
+        display: block
+    }
+}

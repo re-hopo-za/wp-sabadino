@@ -1,0 +1,219 @@
+
+.re_mobile_con{
+    padding: 10px;
+    display:flex;
+
+}
+.re_sidebar_con{
+    width: 150px;
+}
+.re_sidebar_con ul {
+    width: 140px;
+    float: right;
+    margin:0;
+}
+.re_sidebar_con ul li{
+    padding: 10px 5px;
+    margin: 5px 0;
+    background-color: #eee;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.re_mobile_menus_active{
+    border-right: 3px solid green;
+}
+.re_sidebar_con ul li:hover{
+    border-right: 3px solid orange;
+}
+.re_sidebar_con ul li:first-of-type {
+    margin: 0;
+}
+.re_body{
+    width:70vw;
+    background-color: #fff;
+    height:75vh;
+    overflow: hidden;
+}
+.re_body>div{
+    width: 1000%;
+    margin: 0 auto;
+    height: 100%;
+}
+.re_body>div>div{
+    display: block;
+    float: right;
+    width:70vw;
+    height: 100%;
+    padding: 5px;
+    transition: all 0.5s ease-in-out
+}
+.re_items_0 ul li ,
+.re_items_1 ul li{
+    float: right;
+    border: 1px solid #ccc;
+    padding: 6px 5px 6px 0;
+    width: 200px;
+    height: 90px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.re_items_0 ul ,
+.re_items_1 ul{
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+    float: right
+}
+.re_items_0 ul .re_slider_img_con ,
+.re_items_1 ul .re_banner_img_con{
+    width: 150px;
+    height: 90px;
+    float: right
+}
+.re_items_0 ul .re_slider_remove_con ,
+.re_items_1 ul .re_banner_remove_con{
+    width: 50px;
+    height: 90px;
+    float: right;
+    display: flex;
+    align-items: end;
+    justify-content: center
+}
+.re_items_0 ul .re_slider_remove_con button ,
+.re_items_1 ul .re_banner_remove_con button{
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 0px 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.re_items_0 ul .re_add_slider button:hover ,
+.re_items_1 ul .re_add_banner button:hover{
+    transform: scale(1.05)
+}
+.re_items_0 ul .re_slider_remove_con button:hover ,
+.re_items_1 ul .re_banner_remove_con button:hover{
+    transform: scale(1.05)
+}
+.re_items_0 ul .re_slider_img_con img ,
+.re_items_1 ul .re_banner_img_con img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.re_items_0>div ,
+.re_items_1>div{
+    display: inline-block
+}
+
+
+.re_inputs_slider_con ,
+.re_inputs_banner_con{
+    width: 89%;
+    margin: 0;
+    height: 65px!important;;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 0 5px #ddd;
+}
+.re_inputs_slider_con>div:first-of-type  ,
+.re_inputs_banner_con>div:first-of-type {
+    width: 75%;
+    height: 65px!important;;
+    float: right;
+    align-items: center
+}
+.re_inputs_slider_con>div:first-of-type div ,
+.re_inputs_banner_con>div:first-of-type div{
+    width: 100%;
+    height: 80px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.re_inputs_slider_con>div:last-of-type ,
+.re_inputs_banner_con>div:last-of-type{
+    width: 25%;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center
+}
+
+.re_inputs_slider_con div input ,
+.re_inputs_banner_con div input{
+    width: 70%;
+    height: 40px;
+}
+.re_inputs_slider_con>div:first-of-type button ,
+.re_inputs_banner_con>div:first-of-type button{
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 0;
+}
+.re_inputs_slider_con>div:first-of-type button a ,
+.re_inputs_banner_con>div:first-of-type button a{
+    color: #fff;
+    text-decoration: none;
+}
+.re_inputs_slider_con>div:last-of-type button ,
+.re_inputs_banner_con>div:last-of-type button{
+    width:65%;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.re_inputs_slider_con div ,
+.re_inputs_banner_con div{
+    width: 100%;
+    height: 80px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.re_items_2 li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 20px 0;
+}
+.re_items_2 li label {
+    width: 20%;
+    text-align: right;
+    font-size:16px;
+}
+.re_items_2 li>div {
+    width: 30%;
+    text-align: center;
+    font-size: 15px;
+}
+.re_items_2 li div  input{
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
+}
+.re_items_2 li div  button{
+    width:40%;
+    text-align: center;
+    padding: 5px ;
+    background-color: green;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer
+}

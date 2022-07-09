@@ -1,0 +1,93 @@
+.cart-con{ 
+    width:90%;
+    height:40px;
+    margin: 0 auto;
+    border-radius:5px;
+    overflow:hidden;
+   max-width:400px;
+ }
+ .cart-con *{
+    user-select:none 
+ }
+.cart-con .normal-cart{ 
+    background:linear-gradient(to bottom, #ff6233 0%,#ff6239 36%,#ff6240 66%,#ff6246 100%);
+    display:flex;
+    height:40px;
+    margin: 0 auto; 
+    align-items:center
+} 
+.cart-con .added-cart{ 
+    display:flex;
+    height:40px;
+    margin: 0 auto; 
+    align-items:center;
+    justify-content:space-between;
+    padding:0 3px;
+} 
+.cart-con .normal-cart:hover{
+    transform: scale(1.01);
+    transition:all 0.2s ease-in-out;
+    background-image: linear-gradient(to right, #ed4329, #ef5329, #f1612b, #f36e2d, #f47a31);
+    box-shadow: 0 0 10px #ddd;
+    cursor: pointer;
+}
+.cart-con img{   
+    width:30px;
+    height:30px;  
+    min-width:30px;
+}
+ 
+.cart-con .normal-cart .cart-plus-con{   
+    width:30%; 
+    display:flex;
+    justify-content:center;
+    cursor:pointer;
+}
+.cart-con .normal-cart .cart-mines-con{
+    display:none
+}
+.cart-con .normal-cart .cart-count-con{   
+    width:80%; 
+}
+.cart-con .normal-cart .cart-count-con span{
+    width: 100%;   
+    text-shadow: none; 
+    padding-right: 5px;
+    color:#fff;
+    font-size:16px;
+}
+
+.cart-con .added-cart .cart-plus-con{ 
+    display:flex; 
+    align-items:center;
+    padding: 2px;    
+    border-radius: 5px;
+    cursor: pointer;  
+    box-shadow: 0 0 5px #ccc;
+    transition: all 0.3s ease-in;
+} 
+.cart-con .added-cart .cart-plus-con.limit-stock{
+    box-shadow: 0 0 5px #eee;
+}
+.cart-con .added-cart .cart-plus-con.limit-stock img{  
+    opacity:0.4
+}
+.cart-con .added-cart .cart-count-con{ 
+    display:flex;
+    height:40px; 
+    align-items:center
+} 
+.cart-con .added-cart .cart-count-con span{ 
+    text-shadow: none; 
+     font-size:18px; 
+
+}
+.cart-con .added-cart .cart-mines-con{ 
+    display:flex; 
+    align-items:center;
+    padding: 2px;    
+    border-radius: 5px;
+    cursor: pointer;  
+    box-shadow: 0 0 5px #ccc;
+    transition: all 0.3s ease-in;
+} 

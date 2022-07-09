@@ -1,0 +1,21 @@
+{
+    "type": "wordpress-plugin",
+    "name": "reza/sabadino",
+    "authors": [
+        {
+            "name": "reza hossein pour",
+            "email": "re.hopo.za@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/composer": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.18",
+        "giggsey/libphonenumber-for-php": "^8.12",
+        "melipayamak/php": "1.0.0"  
+    },
+    "autoload": {
+        "psr-4": {
+            "Sabadino\\":"./"
+        }
+    }
+}
